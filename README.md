@@ -22,11 +22,12 @@ Here I have put some sample code including some user-defined and built-in functi
   ```
   Converstion from <b>float</b> to <b>string</b> (small s string of standard C++)
  
-    ```sh
+  ```sh
   // Remember for string (small s string) we must add #include <string> at top of our file
   float num = 5;
   string s = to_string(num); // Here float is converted into string
   ```
+
   Converstion from <b>string</b> (small s string of standard C++) to <b>String</b> (capital S String of Dot-Net Framework Visual C++)
  
   ```sh
@@ -35,6 +36,7 @@ Here I have put some sample code including some user-defined and built-in functi
   String^ capital_S = gcnew String(small_s.c_str());
   //gcnew is almost equvelant to new keyword in c++, c_str() means character string
   ```
+
   Converstion from <b>int</b> to <b>String</b> (capital S String of Dot-Net Framework Visual C++)
 
  ```sh
